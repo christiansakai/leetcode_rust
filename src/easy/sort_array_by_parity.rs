@@ -1,4 +1,17 @@
 pub fn sort_array_by_parity(a: Vec<i32>) -> Vec<i32> {
+    let mut even = Vec::with_capacity(a.len());
+    let mut odd = Vec::with_capacity(a.len());
+
+    for el in a {
+        if el % 2 == 0 {
+            even.push(el);
+        } else {
+            odd.push(el);
+        }
+    }
+
+    even.append(&mut odd);
+    even
 }
 
 #[cfg(test)]
