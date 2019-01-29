@@ -18,6 +18,8 @@ pub fn num_jewels_in_stones(j: String, s: String) -> i32 {
 
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
     fn test() {
         let j = String::from("aA");
