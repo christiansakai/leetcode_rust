@@ -1,12 +1,14 @@
+#![allow(dead_code)]
+
 use std::env;
-use std::fs;
 use std::fs::File;
 use std::io::prelude::*;
 use std::process;
 use std::path::Path;
-use std::path::PathBuf;
 
 mod easy;
+mod medium;
+mod hard;
 
 const HELP: &'static str = r#"
 No category and file_name provided.
