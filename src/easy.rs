@@ -8,3 +8,4 @@ pub mod n_repeated_element_in_size_2n_array;
 pub mod sort_array_by_parity;
 pub mod flipping_an_image;
 pub mod robot_return_to_origin;
+pub mod di_string_match;
