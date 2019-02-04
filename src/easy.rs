@@ -11,3 +11,4 @@ pub mod robot_return_to_origin;
 pub mod di_string_match;
 pub mod delete_columns_to_make_sorted;
 pub mod hamming_distance;
+pub mod merge_two_binary_trees;
