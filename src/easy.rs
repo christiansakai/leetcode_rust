@@ -1,3 +1,4 @@
+pub mod two_sum;
 pub mod jewels_and_stones;
 pub mod unique_email_address;
 pub mod find_anagram_mappings;
@@ -12,3 +13,6 @@ pub mod di_string_match;
 pub mod delete_columns_to_make_sorted;
 pub mod hamming_distance;
 pub mod merge_two_binary_trees;
+pub mod peak_index_in_a_mountain_array;
+pub mod self_dividing_numbers;
+pub mod univalued_binary_tree;
